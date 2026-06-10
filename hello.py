@@ -6,7 +6,7 @@ datetime_str = utc_now.strftime("%y.%m.%d %H:%M:%S")
 print(f'Started: {datetime_str}')
 
 try:
-    print("Hello!")
+    print("Hello,world!")
 except Exception as e:
     print(e)    
     pass
